@@ -1,12 +1,25 @@
 #include <iostream>
-#include "Log.h"
+#include "external.h"
 
-void Log(const char* message) {
-	std::cout << message << std::endl;
-}
+//#include "Log.h"
+//#include "Common.h"
+//
+//int main()
+//{
+//	Log("Testing run good");
+//	intiaLog();
+//	std::cin.get();
+//}
 
-int main()
-{
-	intiaLog();
-	std::cin.get();
+int main() {
+	Player player;
+
+	std::cout << player.speed << std::endl;
+
+	if (isPlaying)
+		Print();
+	else
+		std::cout << "Error" << std::endl;
+
+	return 0;
 }
